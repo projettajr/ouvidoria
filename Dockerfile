@@ -1,6 +1,7 @@
 FROM python:3.8
 
-ENV DISPLAY=:99
+RUN -p 8080:80
+#ENV DISPLAY=:99
 
 WORKDIR /ouvidoria
 
