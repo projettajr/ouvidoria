@@ -1,5 +1,7 @@
 FROM python:3.8
 
+ENV DISPLAY=:99
+
 WORKDIR /ouvidoria
 
 COPY . /ouvidoria
