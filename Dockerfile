@@ -1,6 +1,6 @@
 FROM python:3.8
 
-RUN -p 8080:80
+EXPOSE 8080
 #ENV DISPLAY=:99
 
 WORKDIR /ouvidoria
