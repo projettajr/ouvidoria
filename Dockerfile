@@ -1,6 +1,6 @@
 FROM python:3.8
 
-EXPOSE 3000
+#EXPOSE 3000
 #ENV DISPLAY=:99
 
 WORKDIR /ouvidoria
